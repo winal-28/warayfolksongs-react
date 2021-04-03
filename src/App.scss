@@ -1,0 +1,22 @@
+$accentColor: lightgreen;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  padding: 0 10%;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    color: $accentColor;
+  }
+  .nav-links {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+  }
+}
